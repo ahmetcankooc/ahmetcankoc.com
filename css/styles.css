@@ -3,7 +3,6 @@ body {
     position: relative;
     height: 100vh;
     margin: 0;
-    
 }
 h1 {
     color: #ffffff;
@@ -12,8 +11,37 @@ h1 {
     text-align: center;
     line-height: 0px;
     padding-bottom: 5px;
+    top: ;
 }
-
+.text1 {
+    font-family: 'Segoe UI';
+    color: #ffffff;
+    text-align: center;
+    font-size: 140%;
+    line-height: 22px;
+    text-transform: none;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+}
+.text2 {
+    font-family: 'Segoe UI';
+    color: #ffffff;
+    text-align: center;
+    font-size: 140%;
+    line-height: 22px;
+    text-transform: none;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+}
+.line {
+    font-size: 100%;
+    border: 1px;
+    border-bottom-style: solid;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
 
 /* Network Buttons Css */
 
