@@ -1,34 +1,64 @@
 body {
     background-color: #212121;
-}    
+    position: relative;
+    height: 100vh;
+    margin: 0;
+}
+.body {
+    position: absolute !important; 
+    top: 45% !important; 
+    transform: translateY(-50%) !important;
+    width: 100% !important;
+}
 h1 {
     color: #ffffff;
     font-family: 'Segoe UI';
-    font-size: 430%;
+    font-size: 400%;
     text-align: center;
     line-height: 0px;
     padding-bottom: 5px;
-    position: relative;
-    top: 200px;
 }
+.text1 {
+    font-family: 'Segoe UI';
+    color: #ffffff;
+    text-align: center;
+    font-size: 140%;
+    line-height: 20px;
+    text-transform: none;
+    font-weight: 400;
+}
+.text2 {
+    font-family: 'Segoe UI';
+    color: #ffffff;
+    text-align: center;
+    font-size: 140%;
+    line-height: 20px;
+    text-transform: none;
+    font-weight: 400;
+}
+.line {
+    font-size: 100%;
+    border: 1px;
+    border-bottom-style: solid;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
 /* Network Buttons Css */
 
 .network {
     text-align: center;
+    margin-top: 15px !important
 }
 .button {
     background-color: #393939;
-    border: none;
     color: #393939;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     transition-duration: 0.5s;
     height: 40px;
     width: 40px;
     cursor: pointer;
-    position: relative;
-    top: 200px;
     margin-right: 10px; /* icon araları */
 }
 .button1 {
