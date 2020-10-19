@@ -4,36 +4,37 @@ body {
     height: 100vh;
     margin: 0;
 }
+.body {
+    position: absolute !important; 
+    top: 45% !important; 
+    transform: translateY(-50%) !important;
+    width: 100% !important;
+}
 h1 {
     color: #ffffff;
     font-family: 'Segoe UI';
-    font-size: 430%;
+    font-size: 400%;
     text-align: center;
     line-height: 0px;
     padding-bottom: 5px;
-    top: ;
 }
 .text1 {
     font-family: 'Segoe UI';
     color: #ffffff;
     text-align: center;
     font-size: 140%;
-    line-height: 22px;
+    line-height: 20px;
     text-transform: none;
     font-weight: 400;
-    padding: 0px;
-    margin: 0px;
 }
 .text2 {
     font-family: 'Segoe UI';
     color: #ffffff;
     text-align: center;
     font-size: 140%;
-    line-height: 22px;
+    line-height: 20px;
     text-transform: none;
     font-weight: 400;
-    padding: 0px;
-    margin: 0px;
 }
 .line {
     font-size: 100%;
@@ -47,6 +48,7 @@ h1 {
 
 .network {
     text-align: center;
+    margin-top: 15px !important
 }
 .button {
     background-color: #393939;
