@@ -1,6 +1,10 @@
 body {
     background-color: #212121;
-}    
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    
+}
 h1 {
     color: #ffffff;
     font-family: 'Segoe UI';
@@ -8,9 +12,9 @@ h1 {
     text-align: center;
     line-height: 0px;
     padding-bottom: 5px;
-    position: relative;
-    top: 200px;
 }
+
+
 /* Network Buttons Css */
 
 .network {
@@ -18,17 +22,13 @@ h1 {
 }
 .button {
     background-color: #393939;
-    border: none;
     color: #393939;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     transition-duration: 0.5s;
     height: 40px;
     width: 40px;
     cursor: pointer;
-    position: relative;
-    top: 200px;
     margin-right: 10px; /* icon araları */
 }
 .button1 {
